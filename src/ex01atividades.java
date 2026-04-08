@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class atividade3 {
+public class ex01atividades {
     static void main() {
         Scanner sc = new Scanner(System.in);
         int numero = 10;
@@ -11,3 +11,4 @@ public class atividade3 {
         }
     }
 }
+
