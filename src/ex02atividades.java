@@ -7,12 +7,14 @@ public class ex02atividades {
         IO.println(" digite um numero:");
         int numerousuario = sc.nextInt();
         int resultado = 0;
-        int contador = 1;
+        int contador = 0;
 
         while (contador <= numerousuario) {
-            IO.println(contador);
+            resultado = resultado + contador;
             contador++;
+
         }
+        IO.println(resultado);
     }
 }
 
