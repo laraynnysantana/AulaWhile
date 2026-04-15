@@ -17,8 +17,6 @@ public class ex06atividades {
 
         if (quantidade > 0) {
             IO.println("Média: " + (soma / quantidade));
-        } else {
-            IO.println("Nenhuma nota.");
         }
     }
 }
